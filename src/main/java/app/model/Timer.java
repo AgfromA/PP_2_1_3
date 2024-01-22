@@ -7,9 +7,6 @@ package app.model;
             this.nanoTime = System.nanoTime();
         }
 
-        public long getNanoTime() {
-            return nanoTime;
-        }
         public long getTime() {
             return nanoTime;
         }
